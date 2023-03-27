@@ -1,10 +1,15 @@
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { Main } from './components/Main';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-4xl font-bold'>Hello !</h1>
+    <div className='max-w-7xl m-auto'>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
